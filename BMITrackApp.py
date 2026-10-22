@@ -58,6 +58,8 @@ if st.button("GENERATE"):
             st.write("3rd Month BMI: ", bmi3)
             st.write("Average BMI: ", round(avg_bmi, 2))
             st.write("BMI Status: ", bmi_status(avg_bmi))
+            st.write("Highest BMI: ", np.max(bmi_array))
+            st.write("Lowest BMI: ", np.min(bmi_array))
             st.divider()
 
             st.subheader("BMI Tracking Graph")
